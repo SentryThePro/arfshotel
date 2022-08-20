@@ -1,0 +1,157 @@
+* {
+    font-family: 'poppins';
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(60deg, purple, rgba(0, 0, 255, 0.616), red);
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 6px;
+    background: linear-gradient(90deg, purple, blue, cyan);
+    color: #fff;
+    display: flex;
+    
+
+}
+
+/*-----------------------styleing for form---------------------------------*/
+form {
+    width: 900px;
+    height: 650px;
+    background: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(8px);
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-top: 20px;
+    border: 1px solid orange;
+    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.377);
+}
+
+#name {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.322);
+    box-shadow: -3px 3px 8px rgba(224, 228, 221, 0.377);
+}
+
+#acc {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.322);
+    margin-top: 15px;
+    box-shadow: -3px 3px 8px rgba(235, 227, 227, 0.301);
+}
+
+.radio {
+    margin-left: 25%;
+    font-size: 20px;
+
+}
+
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 5px;
+    margin-left: 30%;
+}
+
+.label {
+    margin-left: 25%;
+    padding-top: 20px;
+}
+
+
+button {
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 85);
+    border-radius: 6px;
+    font-size: 18px;
+    margin-left: 40%;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.check {
+    margin-left: 40%;
+}
+
+.entername{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(5px);
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+/* ---------select tag--------------------------- */
+
+select {
+    font-size: 15px;
+    position: relative;
+    left: 65%;
+    top: 5%; 
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.445);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

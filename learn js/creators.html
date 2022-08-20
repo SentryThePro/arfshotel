@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creators...</title>
+	
+	<link rel="stylesheet" href="style.css">
+
+
+<style>
+table{
+   margin-left: 40%;
+   margin-top: 10%;
+	color: white;
+	width: 300px;
+height: 250px;
+font-size: 20px;
+}
+th{
+	background-color: rgba(125, 235, 0, 0.521);
+}
+.bg{
+	background-color: rgb(6, 243, 211);
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+
+<header>
+
+<nav>
+	
+
+	<span id="heading">Apple Bee's !...</span>
+	<a href="apple bees.html"><b> &nbsp; Back</b></a>
+
+		
+	
+</nav>
+</header>
+
+<table border="2">
+
+<tr>
+    <th>Name</th>
+    <th>Link</th>
+</tr>
+<tr>
+	<td>Aathif</td>
+	<td>iam funny</td>
+</tr>
+<tr>
+	<td>AFR</td>
+	<td>hi hello</td>
+</tr>
+
+
+</table>
+
+
+<script>
+   
+
+
+var table=document.querySelector("table");
+
+let none;
+
+table.addEventListener('click',(event)=>{
+	var target=event.target;
+	let closest=target.closest('tr');
+	none=closest;
+	if (target.tagName==='TH') {
+		return;
+	} 
+
+
+	if (none!=undefined) {
+		none.classList.remove("bg")
+	}
+
+	alert(closest.innerText);
+
+
+	closest.classList.add("bg")
+
+	
+});
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+<!-- <script  src="javascript.js"></script>
+<script src="practice.js"></script>
+<script src="main.js"></script>
+<script src="app.js"></script> -->
+<img src="https://as2.ftcdn.net/v2/jpg/03/38/66/77/1000_F_338667730_zjFA72PFPu7dDvj5uf3mCADlgiOic0FR.jpg" >
+
+
+
+</body>
+</html>	

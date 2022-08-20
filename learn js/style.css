@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+*{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    /* background:linear-gradient(90deg,cyan,rgba(0, 0, 255, 0.61),purple); */
+    background-color: #111;    
+}
+
+header nav{
+    width: 100%;
+    height: 60px;
+    background:linear-gradient(60deg,rgba(0, 255, 255, 0.623),rgb(30, 255, 188),rgba(99, 250, 68, 0.651));
+    border-radius: 9px;
+    box-shadow: -2px 4px 8px rgb(0, 0, 0);
+}
+
+header  nav  span{
+    font-size: 25px;
+    margin-left: 40%;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 35px;
+    font-weight: bolder;
+}
+
+main section{
+    margin-top: 20px;
+    width:750px;
+    height: 750px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 11px;
+    box-shadow: -2px 4px 8px rgb(0, 0, 0);
+    margin-left: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    color: rgb(0, 0, 0);
+
+}
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(43, 43, 43);
+  border-radius: 30px;
+}
+.allInput{
+    transition: 0.5s;
+    transform: scale(0.0);
+   
+}
+#input1 input{
+    position: sticky;
+    top:10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 14px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border:none;
+    background: rgba(0, 0, 0, 0.719);
+    width: 200px;
+    border: 1px solid rgba(255, 253, 253, 0.61);
+}
+#input1 button{
+    position: sticky;
+    top:15px;
+    padding: 5px;
+    border:none;
+    border-radius: 9px;
+    background: rgb(81, 216, 250);
+    cursor: pointer;    
+}
+#output{
+    
+    width: 450px;
+    margin-left: 200px;
+}                    
+
+.food{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-right:20px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    border-radius: 8px;
+    list-style: none;
+    font-weight: bolder;
+    cursor: pointer;
+background-color: rgba(0, 0, 0, 0.568);
+border: 1px solid rgba(255, 166, 0, 0.61);
+/* */
+}.food:hover{
+    color: rgb(250, 250, 250);
+    background-color: rgba(255, 255, 255, 0.055);
+    
+}
+
+.Saved-msg{
+   height: 55px;
+   padding-top: 30px;
+   padding-left: 10px;
+    background: rgba(95, 236, 60, 0.884);
+    width: 500px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-left: 30%;
+    box-shadow:2px 5px 5px rgb(0, 0, 0);
+}
+
+.close {
+    float: right;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor:pointer;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.637);
+    border-radius: 5px;
+}
+.remove{
+    float: right;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 0px 8px;
+    border-radius: 6px;
+    color: rgb(253, 120, 11);
+}
+.remove:hover{
+    color: rgba(253, 120, 11, 0.664);
+    background-color: rgb(0, 0, 0);
+}
+.button2{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(255, 0, 0);
+    margin-left: 75%;
+    cursor: pointer;
+    font-size: 15px;
+
+}.button2:hover{
+    color: rgba(255, 0, 0, 0.685);
+}
+
+.coming{
+    transition: 0.5s;
+    transform: scale(1.0);
+    cursor: pointer;
+}
+
+/* -------------------------for log in title */
+
+.log-in{
+    position: relative;
+    left: 85%;
+    bottom: 32px;
+    background-color: rgba(255, 255, 255, 0.493);
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    width: 120px;
+    border-radius: 6px;
+}
+
+/* ------------------------Edit button style----------------------- */
+
+.edit{
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+/*------------errror img */
+
+.none-img img{
+    width: 700px;
+    height: 400px;
+    border-radius: 6px;
+    position: relative;
+    right: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

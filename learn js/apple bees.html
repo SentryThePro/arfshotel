@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Food Planing... </title>
+
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.curser {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 40px;
+			height: 40px;
+			background-color: rgba(37, 4, 4, 0);
+			box-shadow: -3px 3px 10px rgb(255, 251, 251);
+			backdrop-filter: blur(2px);
+			border-radius: 50%;
+			transition: 0.1s ease-out;
+			border: 2px solid rgb(81, 241, 94);
+			margin-right: 20px;
+			color: #fff;
+		}
+
+		.addTask {
+			position: absolute;
+			top: 100px;
+			left: 350px;
+		}
+
+		.addTask ion-icon {
+
+			color: #fff;
+			padding: 10px;
+			background-color: rgba(197, 194, 194, 0.247);
+			font-size: 20px;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+
+		p {
+			color: #fff;
+			font-size: 15px;
+			position: relative;
+			bottom: 40px;
+			left: 50px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+
+	<header>
+
+		<nav>
+
+
+			<span id="heading">Apple Bee's !...</span>
+
+			<a href="creators.html" style="padding-left: 20px;"> <b>Creator.....</b> </a>
+
+			<div class="log-in">
+
+				<a href="feedBack.html">Get a FeedBack</a>
+
+			</div>
+
+
+		</nav>
+	</header>
+
+
+	<main id="main">
+
+		<section>
+			<div id="input1">
+			
+				<div class="allInput ">
+					<input id="input" type="text" placeholder="I Eat .... ">
+
+					<button id="btn">Save</button>
+				</div>
+
+				<div id="output">
+					<div class="button2">Clear All</div>
+
+
+					<ul id="ul">
+
+	
+
+
+					</ul>
+					<div class="none-img" >
+<img src="https://t4.ftcdn.net/jpg/01/05/94/13/500_F_105941376_W07aVV685BQcQrFDgcD8eG6lvwxgVkXs.jpg" alt="">					
+										</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
+
+
+
+
+	<div class="curser"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+	<script>
+		var anime = document.querySelector(".curser");
+
+		document.addEventListener('mousemove', (e) => {
+			var x = e.clientX;
+			var y = e.clientY;
+
+			anime.style.top = y + "px";
+			anime.style.left = x + "px";
+
+
+
+
+		});
+
+
+
+		let addTask = document.querySelector(".addTask");
+		let allInput = document.querySelector(".allInput");
+		let p = document.querySelector("#p");
+
+
+		addTask.addEventListener('click', () => {
+			allInput.classList.toggle('coming');
+		});
+	</script>
+
+
+
+	<script src="javascript.js"></script>
+	<script src="practice.js"></script>
+	<script src="main.js"></script>
+	<script src="app.js"></script>
+
+</body>
+
+</html>
